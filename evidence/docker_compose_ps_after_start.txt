@@ -1,0 +1,5 @@
+NAME                 IMAGE                             COMMAND                  SERVICE     CREATED          STATUS          PORTS
+group4-kafka-1       confluentinc/cp-kafka:7.6.1       "/etc/confluent/dock…"   kafka       59 seconds ago   Up 58 seconds   0.0.0.0:9092->9092/tcp, [::]:9092->9092/tcp
+group4-mongo-1       mongo:7.0                         "docker-entrypoint.s…"   mongo       59 seconds ago   Up 58 seconds   0.0.0.0:27017->27017/tcp, [::]:27017->27017/tcp
+group4-neo4j-1       neo4j:5.23                        "tini -g -- /startup…"   neo4j       59 seconds ago   Up 58 seconds   0.0.0.0:7474->7474/tcp, [::]:7474->7474/tcp, 0.0.0.0:7687->7687/tcp, [::]:7687->7687/tcp
+group4-zookeeper-1   confluentinc/cp-zookeeper:7.6.1   "/etc/confluent/dock…"   zookeeper   59 seconds ago   Up 58 seconds   0.0.0.0:2181->2181/tcp, [::]:2181->2181/tcp

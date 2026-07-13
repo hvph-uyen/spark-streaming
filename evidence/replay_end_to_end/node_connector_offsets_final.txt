@@ -1,0 +1,8 @@
+
+GROUP                         TOPIC           PARTITION  CURRENT-OFFSET  LOG-END-OFFSET  LAG             CONSUMER-ID                                                                     HOST            CLIENT-ID
+connect-group4-peft-node-sink peft.cpg.nodes  4          86              86              0               connector-consumer-group4-peft-node-sink-0-e97704b2-ad99-4b40-8780-38b5d4a94337 /172.20.0.6     connector-consumer-group4-peft-node-sink-0
+connect-group4-peft-node-sink peft.cpg.nodes  3          195             195             0               connector-consumer-group4-peft-node-sink-0-e97704b2-ad99-4b40-8780-38b5d4a94337 /172.20.0.6     connector-consumer-group4-peft-node-sink-0
+connect-group4-peft-node-sink peft.cpg.nodes  1          101             101             0               connector-consumer-group4-peft-node-sink-0-e97704b2-ad99-4b40-8780-38b5d4a94337 /172.20.0.6     connector-consumer-group4-peft-node-sink-0
+connect-group4-peft-node-sink peft.cpg.nodes  0          77              77              0               connector-consumer-group4-peft-node-sink-0-e97704b2-ad99-4b40-8780-38b5d4a94337 /172.20.0.6     connector-consumer-group4-peft-node-sink-0
+connect-group4-peft-node-sink peft.cpg.nodes  5          39              39              0               connector-consumer-group4-peft-node-sink-0-e97704b2-ad99-4b40-8780-38b5d4a94337 /172.20.0.6     connector-consumer-group4-peft-node-sink-0
+connect-group4-peft-node-sink peft.cpg.nodes  2          220             220             0               connector-consumer-group4-peft-node-sink-0-e97704b2-ad99-4b40-8780-38b5d4a94337 /172.20.0.6     connector-consumer-group4-peft-node-sink-0

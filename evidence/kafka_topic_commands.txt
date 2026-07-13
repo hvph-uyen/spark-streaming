@@ -1,0 +1,4 @@
+kafka-topics --create --topic peft.cpg.nodes --bootstrap-server localhost:9092 --partitions 6 --replication-factor 1
+kafka-topics --create --topic peft.cpg.edges --bootstrap-server localhost:9092 --partitions 6 --replication-factor 1
+kafka-topics --create --topic peft.source.metadata --bootstrap-server localhost:9092 --partitions 3 --replication-factor 1
+kafka-topics --create --topic peft.parser.errors --bootstrap-server localhost:9092 --partitions 3 --replication-factor 1

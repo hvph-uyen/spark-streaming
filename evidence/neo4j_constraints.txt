@@ -1,0 +1,3 @@
+name, type
+"cpg_edge_id", "RELATIONSHIP_UNIQUENESS"
+"cpg_node_id", "UNIQUENESS"

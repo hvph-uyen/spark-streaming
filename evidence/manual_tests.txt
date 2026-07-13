@@ -1,0 +1,5 @@
+manual parser tests passed
+project_python_files=14
+sample_nodes=58
+sample_edges=78
+sample_replay_stable=135

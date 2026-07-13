@@ -1,0 +1,46 @@
+{
+  "event_file": "output/peft-events.jsonl",
+  "event_lines": 604529,
+  "unique_files_seen": 365,
+  "topic_counts": {
+    "peft.cpg.nodes": 250837,
+    "peft.cpg.edges": 353327,
+    "peft.source.metadata": 365
+  },
+  "top_node_kinds": {
+    "Name": 66095,
+    "Constant": 49591,
+    "Call": 23018,
+    "Attribute": 17148,
+    "Assign": 15346,
+    "keyword": 11950,
+    "arg": 7403,
+    "Expr": 6692,
+    "Subscript": 5846,
+    "If": 5841,
+    "alias": 4585,
+    "Compare": 4118,
+    "BinOp": 2780,
+    "FunctionDef": 2528,
+    "FormattedValue": 2289,
+    "ImportFrom": 2170,
+    "Return": 2075,
+    "Tuple": 1938,
+    "JoinedStr": 1805,
+    "Dict": 1540
+  },
+  "edge_type_counts": {
+    "AST_CHILD": 246361,
+    "DFG": 55961,
+    "CFG_NEXT": 20179,
+    "CALLS": 23036,
+    "CFG_LOOP": 2630,
+    "CFG_TRUE": 4169,
+    "CFG_FALSE": 783,
+    "CFG_EXCEPT": 61,
+    "CFG_TRY": 138,
+    "CFG_FINALLY": 6,
+    "CFG_ELSE": 3
+  },
+  "sample_topics_written_to": "evidence/sample_events_by_topic.json"
+}

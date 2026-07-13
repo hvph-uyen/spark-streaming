@@ -1,0 +1,11 @@
+{
+  "before_events": 135,
+  "after_events": 135,
+  "added_events": 0,
+  "removed_events": 0,
+  "stable_event_ids": 135,
+  "changed_file": "samples/example_module.py",
+  "before_file": "samples/example_module.py",
+  "after_file": "samples/example_module.py",
+  "notes": []
+}

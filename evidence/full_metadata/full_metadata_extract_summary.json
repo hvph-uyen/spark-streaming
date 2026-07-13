@@ -1,0 +1,7 @@
+{
+  "source": "output/peft-events.jsonl",
+  "target": "evidence/full_metadata/peft.source.metadata.full.jsonl",
+  "metadata_events": 365,
+  "unique_file_paths": 365,
+  "nul_bytes": 0
+}

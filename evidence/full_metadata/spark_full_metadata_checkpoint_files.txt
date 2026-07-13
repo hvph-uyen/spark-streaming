@@ -1,0 +1,8 @@
+checkpoints/full_metadata_stream/.metadata.crc
+checkpoints/full_metadata_stream/commits/.0.crc
+checkpoints/full_metadata_stream/commits/0
+checkpoints/full_metadata_stream/metadata
+checkpoints/full_metadata_stream/offsets/.0.crc
+checkpoints/full_metadata_stream/offsets/0
+checkpoints/full_metadata_stream/sources/0/.0.crc
+checkpoints/full_metadata_stream/sources/0/0

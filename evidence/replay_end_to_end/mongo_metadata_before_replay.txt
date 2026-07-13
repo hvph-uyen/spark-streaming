@@ -1,0 +1,12 @@
+[
+  {
+    file_path: 'peft/src/peft/optimizers/loraplus.py',
+    content_hash: 'cd3668016860937f1b8af7246cf069824f6dc6b6',
+    ast_node_count: Long('233'),
+    ast_edge_count: Long('227'),
+    cfg_edge_count: Long('25'),
+    dfg_edge_count: Long('50'),
+    call_edge_count: Long('19'),
+    function_count: Long('1')
+  }
+]

@@ -1,0 +1,44 @@
+Client:
+ Version:    28.4.0
+ Context:    desktop-linux
+ Debug Mode: true
+ Plugins:
+  ai: Docker AI Agent - Ask Gordon (Docker Inc.)
+    Version:  v1.9.11
+    Path:     /Users/hvpu/.docker/cli-plugins/docker-ai
+  buildx: Docker Buildx (Docker Inc.)
+    Version:  v0.28.0-desktop.1
+    Path:     /Users/hvpu/.docker/cli-plugins/docker-buildx
+  cloud: Docker Cloud (Docker Inc.)
+    Version:  v0.4.29
+    Path:     /Users/hvpu/.docker/cli-plugins/docker-cloud
+  compose: Docker Compose (Docker Inc.)
+    Version:  v2.39.4-desktop.1
+    Path:     /Users/hvpu/.docker/cli-plugins/docker-compose
+  debug: Get a shell into any image or container (Docker Inc.)
+    Version:  0.0.42
+    Path:     /Users/hvpu/.docker/cli-plugins/docker-debug
+  desktop: Docker Desktop commands (Docker Inc.)
+    Version:  v0.2.0
+    Path:     /Users/hvpu/.docker/cli-plugins/docker-desktop
+  extension: Manages Docker extensions (Docker Inc.)
+    Version:  v0.2.31
+    Path:     /Users/hvpu/.docker/cli-plugins/docker-extension
+  init: Creates Docker-related starter files for your project (Docker Inc.)
+    Version:  v1.4.0
+    Path:     /Users/hvpu/.docker/cli-plugins/docker-init
+  mcp: Docker MCP Plugin (Docker Inc.)
+    Version:  v0.20.0
+    Path:     /Users/hvpu/.docker/cli-plugins/docker-mcp
+  model: Docker Model Runner (Docker Inc.)
+    Version:  v0.1.41
+    Path:     /Users/hvpu/.docker/cli-plugins/docker-model
+  sbom: View the packaged-based Software Bill Of Materials (SBOM) for an image (Anchore Inc.)
+    Version:  0.6.0
+    Path:     /Users/hvpu/.docker/cli-plugins/docker-sbom
+  scout: Docker Scout (Docker Inc.)
+    Version:  v1.18.3
+    Path:     /Users/hvpu/.docker/cli-plugins/docker-scout
+
+Server:
+Cannot connect to the Docker daemon at unix:///Users/hvpu/.docker/run/docker.sock. Is the docker daemon running?

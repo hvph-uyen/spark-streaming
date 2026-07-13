@@ -1,0 +1,67 @@
+{
+  "peft.cpg.nodes": {
+    "topic": "peft.cpg.nodes",
+    "key": "f289069d7149c9642c7fc928087221017d8db69a",
+    "value": {
+      "schema_version": 1,
+      "event_time": "2026-07-13T03:58:52.833413Z",
+      "repo": "huggingface/peft",
+      "commit_sha": "79f4c362248d3b3b4bc2ed24704ed3183528c53f",
+      "file_path": "/Users/hvpu/Downloads/group4/peft/docs/source/_config.py",
+      "element_id": "f289069d7149c9642c7fc928087221017d8db69a",
+      "kind": "Module",
+      "qualname": "docs.source._config",
+      "label": "Module",
+      "span": {
+        "lineno": null,
+        "col_offset": null,
+        "end_lineno": null,
+        "end_col_offset": null
+      },
+      "properties": {
+        "node_type": "Module",
+        "line_text": "",
+        "fingerprint": "Module(body=[Assign(targets=[Name(id='INSTALL_CONTENT', ctx=Store())], value=Constant(value='\\n# PEFT installation\\n! pip install peft accelerate transformers\\n# To install from source instead of the last release, comment the command above and uncomment the following one.\\n# ! pip install git+https://github.com/huggingface/peft.git\\n'))], type_ignores=[])"
+      }
+    }
+  },
+  "peft.cpg.edges": {
+    "topic": "peft.cpg.edges",
+    "key": "2bafb589ec0db60d6e90f9110e241eedd61df446",
+    "value": {
+      "schema_version": 1,
+      "event_time": "2026-07-13T03:58:52.833413Z",
+      "repo": "huggingface/peft",
+      "commit_sha": "79f4c362248d3b3b4bc2ed24704ed3183528c53f",
+      "file_path": "/Users/hvpu/Downloads/group4/peft/docs/source/_config.py",
+      "edge_id": "2bafb589ec0db60d6e90f9110e241eedd61df446",
+      "source_id": "f289069d7149c9642c7fc928087221017d8db69a",
+      "target_id": "d68235b762b56a51aa30be942f1e8702d2327c48",
+      "edge_type": "AST_CHILD",
+      "properties": {}
+    }
+  },
+  "peft.source.metadata": {
+    "topic": "peft.source.metadata",
+    "key": "/Users/hvpu/Downloads/group4/peft/docs/source/_config.py",
+    "value": {
+      "schema_version": 1,
+      "event_time": "2026-07-13T03:58:52.833413Z",
+      "repo": "huggingface/peft",
+      "commit_sha": "79f4c362248d3b3b4bc2ed24704ed3183528c53f",
+      "file_path": "/Users/hvpu/Downloads/group4/peft/docs/source/_config.py",
+      "file_size_bytes": 280,
+      "line_count": 7,
+      "content_hash": "fc4e3490eb6bee1dfceb5d919413dd7992069faf",
+      "ast_node_count": 4,
+      "ast_edge_count": 3,
+      "cfg_edge_count": 0,
+      "dfg_edge_count": 1,
+      "call_edge_count": 0,
+      "class_count": 0,
+      "function_count": 0,
+      "import_count": 0,
+      "properties": {}
+    }
+  }
+}

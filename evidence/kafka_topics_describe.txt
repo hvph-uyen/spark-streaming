@@ -1,0 +1,22 @@
+Topic: peft.cpg.nodes	TopicId: o6KUKi7oSe21UB66IHghkQ	PartitionCount: 6	ReplicationFactor: 1	Configs: 
+	Topic: peft.cpg.nodes	Partition: 0	Leader: 1	Replicas: 1	Isr: 1
+	Topic: peft.cpg.nodes	Partition: 1	Leader: 1	Replicas: 1	Isr: 1
+	Topic: peft.cpg.nodes	Partition: 2	Leader: 1	Replicas: 1	Isr: 1
+	Topic: peft.cpg.nodes	Partition: 3	Leader: 1	Replicas: 1	Isr: 1
+	Topic: peft.cpg.nodes	Partition: 4	Leader: 1	Replicas: 1	Isr: 1
+	Topic: peft.cpg.nodes	Partition: 5	Leader: 1	Replicas: 1	Isr: 1
+Topic: peft.cpg.edges	TopicId: 4YYB47O0TYSYcaWctvliHw	PartitionCount: 6	ReplicationFactor: 1	Configs: 
+	Topic: peft.cpg.edges	Partition: 0	Leader: 1	Replicas: 1	Isr: 1
+	Topic: peft.cpg.edges	Partition: 1	Leader: 1	Replicas: 1	Isr: 1
+	Topic: peft.cpg.edges	Partition: 2	Leader: 1	Replicas: 1	Isr: 1
+	Topic: peft.cpg.edges	Partition: 3	Leader: 1	Replicas: 1	Isr: 1
+	Topic: peft.cpg.edges	Partition: 4	Leader: 1	Replicas: 1	Isr: 1
+	Topic: peft.cpg.edges	Partition: 5	Leader: 1	Replicas: 1	Isr: 1
+Topic: peft.parser.errors	TopicId: UAnw0vBATriIkZwHT4E7Hg	PartitionCount: 3	ReplicationFactor: 1	Configs: 
+	Topic: peft.parser.errors	Partition: 0	Leader: 1	Replicas: 1	Isr: 1
+	Topic: peft.parser.errors	Partition: 1	Leader: 1	Replicas: 1	Isr: 1
+	Topic: peft.parser.errors	Partition: 2	Leader: 1	Replicas: 1	Isr: 1
+Topic: peft.source.metadata	TopicId: cGeuGMsaTNqCqiY4B2jnEQ	PartitionCount: 3	ReplicationFactor: 1	Configs: 
+	Topic: peft.source.metadata	Partition: 0	Leader: 1	Replicas: 1	Isr: 1
+	Topic: peft.source.metadata	Partition: 1	Leader: 1	Replicas: 1	Isr: 1
+	Topic: peft.source.metadata	Partition: 2	Leader: 1	Replicas: 1	Isr: 1

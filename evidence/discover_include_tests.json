@@ -1,0 +1,25 @@
+{
+  "repo_root": "/Users/hvpu/Downloads/group4/peft",
+  "total_files": 431,
+  "by_top_level_dir": {
+    "docs": 1,
+    "examples": 95,
+    "method_comparison": 18,
+    "scripts": 8,
+    "setup.py": 1,
+    "src": 245,
+    "tests": 63
+  },
+  "sample_files": [
+    "docs/source/_config.py",
+    "examples/KappaTune/experiments_kappatune_peft.py",
+    "examples/adamss_finetuning/glue_adamss_asa_example.py",
+    "examples/adamss_finetuning/glue_adamss_asa_manual_example.py",
+    "examples/adamss_finetuning/image_classification_adamss_asa.py",
+    "examples/adamss_finetuning/test_adamss_quick.py",
+    "examples/alora_finetuning/alora_finetuning.py",
+    "examples/arrow_multitask/arrow_phi3_mini.py",
+    "examples/bdlora_finetuning/chat.py",
+    "examples/beft_finetuning/beft_finetuning.py"
+  ]
+}

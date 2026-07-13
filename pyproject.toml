@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "group4-lab4"
+version = "0.1.0"
+description = "Lab 04 project scaffold for incremental CPG streaming on PEFT"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [
+  {name = "Group 4"}
+]
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+kafka = ["kafka-python>=2.0.2"]
+neo4j = ["neo4j>=5.22.0"]
+mongo = ["pymongo>=4.8.0"]
+spark = ["pyspark>=3.5.0"]
+all = [
+  "pytest>=8.0",
+  "kafka-python>=2.0.2",
+  "neo4j>=5.22.0",
+  "pymongo>=4.8.0",
+  "pyspark>=3.5.0"
+]
+
+[project.scripts]
+group4-lab4 = "group4_lab.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+

@@ -1,0 +1,8 @@
+
+GROUP                         TOPIC           PARTITION  CURRENT-OFFSET  LOG-END-OFFSET  LAG             CONSUMER-ID                                                                     HOST            CLIENT-ID
+connect-group4-peft-edge-sink peft.cpg.edges  1          171             171             0               connector-consumer-group4-peft-edge-sink-0-ccbeff04-5b2d-4fb2-a336-5debe17e212b /172.20.0.6     connector-consumer-group4-peft-edge-sink-0
+connect-group4-peft-edge-sink peft.cpg.edges  4          134             134             0               connector-consumer-group4-peft-edge-sink-0-ccbeff04-5b2d-4fb2-a336-5debe17e212b /172.20.0.6     connector-consumer-group4-peft-edge-sink-0
+connect-group4-peft-edge-sink peft.cpg.edges  5          136             136             0               connector-consumer-group4-peft-edge-sink-0-ccbeff04-5b2d-4fb2-a336-5debe17e212b /172.20.0.6     connector-consumer-group4-peft-edge-sink-0
+connect-group4-peft-edge-sink peft.cpg.edges  0          149             149             0               connector-consumer-group4-peft-edge-sink-0-ccbeff04-5b2d-4fb2-a336-5debe17e212b /172.20.0.6     connector-consumer-group4-peft-edge-sink-0
+connect-group4-peft-edge-sink peft.cpg.edges  2          177             177             0               connector-consumer-group4-peft-edge-sink-0-ccbeff04-5b2d-4fb2-a336-5debe17e212b /172.20.0.6     connector-consumer-group4-peft-edge-sink-0
+connect-group4-peft-edge-sink peft.cpg.edges  3          219             219             0               connector-consumer-group4-peft-edge-sink-0-ccbeff04-5b2d-4fb2-a336-5debe17e212b /172.20.0.6     connector-consumer-group4-peft-edge-sink-0
