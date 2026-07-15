@@ -27,9 +27,20 @@ checkpoints/mongo_streaming
 
 That checkpoint is important because it allows the Structured Streaming job to resume from its previous offsets instead of starting from scratch.
 
+## Visual evidence
+
+The screenshot below was captured from MongoDB Compass after streaming the metadata document for PEFT.
+
+![MongoDB Compass metadata document](assets/mongo-compass-peft-metadata.jpg)
+
+It shows:
+
+- at least one metadata document
+- the file path and content hash
+- node and edge count fields
+
 ## Report evidence to capture
 
 - Spark job output
-- MongoDB Compass screenshot
 - one or two example metadata documents
 

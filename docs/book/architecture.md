@@ -2,15 +2,7 @@
 
 ## End-to-end flow
 
-```text
-Python repo
-  -> incremental parser
-  -> Kafka topics
-  -> Neo4j sink for graph topology
-  -> Spark Structured Streaming
-  -> MongoDB for metadata
-  -> Jupyter Book for the report
-```
+![End-to-end architecture diagram](assets/architecture.svg)
 
 ## Component summary
 
@@ -28,3 +20,7 @@ Python repo
 - Metadata is separated from graph topology so each sink has a focused payload.
 - The report is kept in Jupyter Book so the evidence can be published as a static site.
 
+## Evidence slots
+
+- Neo4j Browser screenshots: `assets/neo4j-node-count.jpg` and `assets/neo4j-relationship-count.jpg`
+- MongoDB screenshot: `assets/mongo-compass-peft-metadata.jpg`
