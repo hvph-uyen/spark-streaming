@@ -1,0 +1,13 @@
+{
+  "repo_name": "huggingface/peft",
+  "commit_sha": "HEAD",
+  "include_tests": false,
+  "exclude_patterns": ["__pycache__", ".venv", "build", "dist", ".git"],
+  "topics": {
+    "nodes": "peft.cpg.nodes",
+    "edges": "peft.cpg.edges",
+    "metadata": "peft.source.metadata",
+    "errors": "peft.parser.errors"
+  }
+}
+

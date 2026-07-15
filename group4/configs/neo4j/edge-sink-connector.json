@@ -1,0 +1,22 @@
+{
+  "name": "group4-peft-edge-sink",
+  "config": {
+    "connector.class": "org.neo4j.connectors.kafka.sink.Neo4jConnector",
+    "tasks.max": "1",
+    "topics": "peft.cpg.edges",
+    "consumer.override.auto.offset.reset": "latest",
+    "key.converter": "org.apache.kafka.connect.storage.StringConverter",
+    "value.converter": "org.apache.kafka.connect.json.JsonConverter",
+    "value.converter.schemas.enable": "false",
+    "errors.tolerance": "all",
+    "errors.log.enable": "true",
+    "errors.log.include.messages": "true",
+    "neo4j.uri": "neo4j://neo4j:7687",
+    "neo4j.authentication.type": "BASIC",
+    "neo4j.authentication.basic.username": "neo4j",
+    "neo4j.authentication.basic.password": "password123",
+    "neo4j.cypher.bind-value-as": "__value",
+    "neo4j.cypher.bind-value-as-event": "false",
+    "neo4j.cypher.topic.peft.cpg.edges": "MATCH (a:CPGNode {id: __value.source_id}), (b:CPGNode {id: __value.target_id}) MERGE (a)-[r:CPG_EDGE {id: __value.edge_id}]->(b) SET r.kind = __value.edge_type, r.file_path = __value.file_path, r.repo = __value.repo, r.commit_sha = __value.commit_sha, r.updated_at = datetime()"
+  }
+}
