@@ -1,20 +1,5 @@
 # Introduction
 
-This report documents the Lab 04 streaming pipeline built around the selected repository `huggingface/peft`.
+Jupyter Book này là phần báo cáo chính của Lab 04 Streaming. Nhóm chọn repository `huggingface/peft` và xây pipeline xử lý source code Python theo hướng event-driven.
 
-The goal of the project is to process Python source code one file at a time, extract a code property graph-style event stream, and route the results into:
-
-- Kafka for event transport
-- Neo4j for graph topology
-- MongoDB for file-level metadata
-- Jupyter Book for the final write-up
-
-The implementation in this repository is intentionally organized around small, testable pieces:
-
-- a parser that can run per file
-- a publisher abstraction that can target console output or Kafka
-- config helpers for Neo4j and MongoDB
-- a replay helper for idempotence checks
-
-The rest of this book explains how those parts fit together and how to run them.
-
+Chapter `report` đi qua từng task theo đúng thứ tự yêu cầu của lab: repository discovery, incremental parser, Kafka topic design, Neo4j graph ingestion, MongoDB metadata ingestion và replay verification. Mỗi task có phần giải thích cách làm, output thật từ evidence và reflection ngắn.

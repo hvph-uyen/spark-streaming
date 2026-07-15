@@ -1,12 +1,6 @@
 format: jb-book
 root: intro
 chapters:
-  - file: task1
-  - file: task2
-  - file: task3
-  - file: task4
-  - file: task5
-  - file: task6
+  - file: report
   - file: architecture
   - file: conclusion
-
