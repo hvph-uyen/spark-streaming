@@ -16,7 +16,7 @@ The repository also includes Cypher constraints in `configs/neo4j/constraints.cy
 
 ## Visual evidence
 
-The two screenshots below were captured from Neo4j Browser after ingesting the PEFT repository.
+Hai ảnh dưới đây là bằng chứng trực tiếp cho Task 4. Ảnh đầu cho thấy Neo4j đã nhận được các event của graph, còn ảnh thứ hai cho thấy số lượng node/relationship đã thay đổi sau khi Kafka Connect consume dữ liệu từ topic sink. Đây là phần chứng minh rằng nhóm đã thiết lập và chạy được luồng Kafka Connect -> Neo4j thành công.
 
 ### Node count
 

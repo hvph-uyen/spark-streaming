@@ -29,9 +29,17 @@ That checkpoint is important because it allows the Structured Streaming job to r
 
 ## Visual evidence
 
-The screenshot below was captured from MongoDB Compass after streaming the metadata document for PEFT.
+Ảnh dưới đây là sample document xem bằng MongoDB Compass. Nhóm đặt ảnh này vào phần Task 5 để chứng minh rằng metadata từ Kafka/Spark đã được ghi thật vào MongoDB, đồng thời giúp người đọc nhìn thấy rõ schema và các field lưu cho từng file sau khi streaming.
 
 ![MongoDB Compass metadata document](assets/mongo-compass-peft-metadata.jpg)
+
+Ảnh này là minh chứng cho Task 5, không chỉ là ảnh minh họa giao diện.
+
+### Collection overview
+
+?nh n?y cho th?y collection `lab4.peft_metadata_full` ?? c? 365 documents trong MongoDB Compass. ??y l? b?ng ch?ng tr?c ti?p r?ng Spark Structured Streaming ?? ghi xong to?n b? metadata v?o MongoDB, ch? kh?ng ch? ghi ???c m?t document m?u.
+
+![MongoDB Compass collection overview](assets/mongo-compass-peft-collection-overview.png)
 
 It shows:
 
