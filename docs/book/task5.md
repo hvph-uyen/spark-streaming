@@ -37,7 +37,7 @@ That checkpoint is important because it allows the Structured Streaming job to r
 
 ### Collection overview
 
-?nh n?y cho th?y collection `lab4.peft_metadata_full` ?? c? 365 documents trong MongoDB Compass. ??y l? b?ng ch?ng tr?c ti?p r?ng Spark Structured Streaming ?? ghi xong to?n b? metadata v?o MongoDB, ch? kh?ng ch? ghi ???c m?t document m?u.
+This screenshot shows the `lab4.peft_metadata_full` collection with 365 documents in MongoDB Compass. It is direct evidence that Spark Structured Streaming wrote the full metadata set into MongoDB, not just a sample record.
 
 ![MongoDB Compass collection overview](assets/mongo-compass-peft-collection-overview.png)
 
