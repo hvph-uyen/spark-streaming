@@ -4,6 +4,9 @@
   "spark.mongodb.write.connection.uri": "mongodb://localhost:27017",
   "spark.mongodb.write.database": "lab4",
   "spark.mongodb.write.collection": "peft_metadata",
+  "spark.mongodb.write.idFieldList": "repo,file_path",
+  "spark.mongodb.write.operationType": "replace",
+  "spark.mongodb.write.upsertDocument": true,
   "checkpointLocation": "checkpoints/mongo_streaming",
   "inputTopic": "peft.source.metadata"
 }

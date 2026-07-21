@@ -14,6 +14,9 @@ class MongoStreamingSpec:
     collection: str = "peft_metadata"
     checkpoint_location: str = "checkpoints/mongo_streaming"
     input_topic: str = "peft.source.metadata"
+    id_field_list: str = "repo,file_path"
+    operation_type: str = "replace"
+    upsert_document: bool = True
 
     def to_dict(self) -> dict[str, Any]:
         return {
@@ -22,6 +25,9 @@ class MongoStreamingSpec:
             "spark.mongodb.write.connection.uri": self.connection_uri,
             "spark.mongodb.write.database": self.database,
             "spark.mongodb.write.collection": self.collection,
+            "spark.mongodb.write.idFieldList": self.id_field_list,
+            "spark.mongodb.write.operationType": self.operation_type,
+            "spark.mongodb.write.upsertDocument": self.upsert_document,
             "checkpointLocation": self.checkpoint_location,
             "inputTopic": self.input_topic,
         }
@@ -77,6 +83,9 @@ parsed = raw.select(from_json(col("value").cast("string"), schema).alias("data")
     .option("uri", "mongodb://localhost:27017")
     .option("database", "lab4")
     .option("collection", "peft_metadata")
+    .option("idFieldList", "repo,file_path")
+    .option("operationType", "replace")
+    .option("upsertDocument", "true")
     .option("checkpointLocation", "checkpoints/mongo_streaming")
     .outputMode("append")
     .start()
