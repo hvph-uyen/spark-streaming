@@ -264,9 +264,7 @@ img[alt*="Architecture"] {
 }
 
 .bd-sidebar-secondary,
-.bd-toc,
-.bd-sidebar-secondary *,
-.bd-toc * {
+.bd-sidebar-secondary * {
   display: none !important;
 }
 
@@ -282,10 +280,6 @@ pre {
 
 pre {
   border-radius: 14px;
-}
-
-.bd-toc {
-  font-size: 0.95rem;
 }
 
 @media (max-width: 768px) {
