@@ -6,3 +6,12 @@ execute:
 html:
   use_edit_page_button: false
   use_repository_button: false
+sphinx:
+  config:
+    html_static_path:
+      - _static
+    html_css_files:
+      - custom.css
+    html_theme_options:
+      show_toc_level: 2
+      show_prev_next: false
