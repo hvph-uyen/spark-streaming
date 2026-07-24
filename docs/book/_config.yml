@@ -15,3 +15,4 @@ sphinx:
     html_theme_options:
       show_toc_level: 2
       show_prev_next: false
+      secondary_sidebar_items: []

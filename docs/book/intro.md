@@ -2,7 +2,7 @@
 
 <div class="hero-panel">
   <p class="eyebrow">Published Jupyter Book</p>
-  <h1>Spark Streaming on <code>huggingface/peft</code></h1>
+  <h1>Spark Streaming on huggingface/peft</h1>
   <p class="hero-copy">This book documents the lab as a structured narrative: we discover the repository, parse Python source into CPG-style events, publish through Kafka, ingest graph data into Neo4j, stream metadata into MongoDB, and verify replay idempotency.</p>
   <div class="hero-meta">
     <span><strong>Repository</strong><br/>huggingface/peft</span>
