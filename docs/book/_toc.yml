@@ -1,6 +1,2 @@
 format: jb-book
-root: intro
-chapters:
-  - file: report
-  - file: architecture
-  - file: conclusion
+root: report
