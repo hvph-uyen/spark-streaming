@@ -263,11 +263,6 @@ img[alt*="Architecture"] {
   background: rgba(15, 118, 110, 0.07);
 }
 
-.bd-sidebar-secondary,
-.bd-sidebar-secondary * {
-  display: none !important;
-}
-
 .bd-main .bd-content,
 .bd-main .bd-article-container {
   width: 100%;
